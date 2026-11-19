@@ -1,0 +1,19 @@
+:root{--b:#159FC6;--g:#73AE46;--o:#F5A126;--n:#144F74;--d:#0c2b3e;--bg:#f4f8fa;--t:#17303d;--bd:#d9e3e8}
+*{box-sizing:border-box}body{margin:0;font-family:"IBM Plex Sans Arabic",system-ui,sans-serif;background:var(--bg);color:var(--t);direction:rtl}
+header{background:var(--d);color:#fff;padding:12px 16px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:5}
+header b{font-size:18px}nav{display:flex;gap:4px;background:#fff;border-bottom:1px solid var(--bd);overflow-x:auto;position:sticky;top:48px;z-index:4}
+nav button{flex:1;min-width:84px;padding:12px 8px;border:0;background:none;font:inherit;color:#5b7482;border-bottom:3px solid transparent;cursor:pointer}
+nav button.on{color:var(--n);border-color:var(--b);font-weight:600}
+main{max-width:860px;margin:0 auto;padding:14px}
+.card{background:#fff;border:1px solid var(--bd);border-radius:8px;padding:12px;margin-bottom:10px}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+label{display:block;font-size:13px;margin:10px 0 4px;color:#5b7482}
+input,textarea,select{width:100%;padding:9px;border:1px solid var(--bd);border-radius:6px;font:inherit;background:#fff}
+textarea{min-height:110px}button.p{background:var(--n);color:#fff;border:0;border-radius:6px;padding:10px 16px;font:inherit;cursor:pointer}
+button.s{background:#fff;border:1px solid var(--bd);border-radius:6px;padding:6px 10px;font:inherit;cursor:pointer}
+.tag{font-size:12px;padding:2px 8px;border-radius:99px;background:#e8f1f5}
+.published{background:#e3f3d6;color:#3d6b1d}.needs_manual{background:#fdecc9;color:#8a5a00}.failed{background:#fbdada;color:#9b1c1c}.scheduled,.publishing{background:#dff0f7;color:#0c6c8a}.cancelled{background:#eee;color:#666}
+.day{font-weight:600;margin:16px 0 6px;color:var(--n)}.muted{color:#6b8290;font-size:13px}
+.msg{padding:8px 10px;border-radius:8px;margin:4px 0;max-width:85%;white-space:pre-wrap}.in{background:#eef4f7}.out{background:#dff0f7;margin-right:auto}
+.plats label{display:inline-flex;gap:4px;align-items:center;margin:4px 10px 4px 0;color:var(--t)}.plats input{width:auto}
+#login{max-width:340px;margin:60px auto}
